@@ -6,7 +6,8 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { Provider } from "react-redux";
 import store from "./store/index";
-import Paws from "./pages/appointment";
+import Paws from "./pages/paws";
+import Appointment from "./pages/appointment";
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 );
@@ -17,6 +18,7 @@ root.render(
         <Routes>
           <Route path="/" element={<App />}></Route>
           <Route path="/paws" element={<Paws />} />
+          <Route path="/appointment" element={<Appointment />} />
         </Routes>
       </BrowserRouter>
     </Provider>

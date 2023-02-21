@@ -9,7 +9,7 @@ function Services() {
       </div>
       <div className=" flex justify-evenly flex-wrap">
         <Servicescards
-          link=""
+          link="/appointment"
           name="VETERINARY"
           image="/services/appoinments.jpg"
           details="Easy appoinments available at best price."
@@ -21,7 +21,7 @@ function Services() {
           details="Wide range of pet products available. Just have a look."
         />
         <Servicescards
-          link=""
+          link="/appointment"
           image="/services/grooming.jpg"
           name="PET GROOMING"
           details="We guarantee one full day of pet grooming."

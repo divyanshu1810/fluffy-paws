@@ -1,27 +1,12 @@
+import React from "react";
 import { useSelector } from "react-redux";
-import Header from "../components/shared/header";
 import Login from "../components/home/login";
 import Signup from "../components/home/signup";
-import Ourpaws from "../components/appoinments/ourpaws";
-import { useState, useEffect } from "react";
-import Loader from "../components/shared/loader";
-const Paws = () => {
+import AppointmentIndex from "../components/appointment";
+import Header from "../components/shared/header";
+const Appointment = () => {
   const isLoggedIn = useSelector((state: any) => state.auth.isLoggedIn);
   const isNewUser = useSelector((state: any) => state.newuser.isNewUser);
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    setLoading(false);
-
-    const timeout = setTimeout(() => {
-      setLoading(true);
-    }, 5000);
-
-    return () => {
-      clearTimeout(timeout);
-      setLoading(false);
-    };
-  }, []);
   return (
     <div>
       <Header />
@@ -29,10 +14,9 @@ const Paws = () => {
         <div>
           {!isLoggedIn && <Login />}
           {isLoggedIn && (
-            <>
-              {!loading && <Loader />}
-              {loading && <Ourpaws />}
-            </>
+            <div className=" flex justify-center lg:pt-40">
+              <AppointmentIndex />
+            </div>
           )}
         </div>
       )}
@@ -40,9 +24,9 @@ const Paws = () => {
         <div>
           {!isLoggedIn && <Signup />}
           {isLoggedIn && (
-            <>
-              <Ourpaws />
-            </>
+            <div className=" flex justify-center lg:pt-40">
+              <AppointmentIndex />
+            </div>
           )}
         </div>
       )}
@@ -50,4 +34,4 @@ const Paws = () => {
   );
 };
 
-export default Paws;
+export default Appointment;
