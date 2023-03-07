@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className=" bg-orange-400 py-8 text-white flex justify-evenly items-center space-y-4 md:space-y-0 flex-col md:flex-row">
+    <div className=" bg-[#e95546] py-8 text-white flex justify-evenly items-center space-y-4 md:space-y-0 flex-col md:flex-row">
       <div>
         <div className=" font-semibold text-2xl">ADDRESS</div>
         <div className=" font-semibold text-xl">Kattankulathur Chennai</div>

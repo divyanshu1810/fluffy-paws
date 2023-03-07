@@ -10,7 +10,7 @@ function Servicescards({ name, details, image, link }: Cardstype) {
   return (
     <Link to={link}>
       <div className="flex justify-center pb-10">
-        <div className="rounded-lg text-orange-500 hover:text-white shadow-lg bg-white max-w-xs hover:shadow-2xl duration-200 hover:bg-orange-500 cursor-pointer ">
+        <div className="rounded-lg text-[#fc6d58] hover:text-white shadow-lg bg-white max-w-xs hover:shadow-2xl duration-200 hover:bg-[#fc6d58] cursor-pointer ">
           <a href="#!">
             <img className="rounded-t-lg" src={image} alt="" />
           </a>

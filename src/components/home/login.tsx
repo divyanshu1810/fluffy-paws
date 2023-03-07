@@ -75,7 +75,7 @@ const Login = () => {
               />
               {errors.password && touched.password && errors.password}
               <button
-                className=" border-2 mt-6 bg-orange-400 text-sm font-bold p-2 rounded-md"
+                className=" border-2 mt-6 bg-[#e95546] hover:bg-[#fc6d58] text-white text-sm font-bold p-2 rounded-md"
                 type="submit"
                 disabled={isSubmitting}
               >

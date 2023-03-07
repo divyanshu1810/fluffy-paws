@@ -12,6 +12,7 @@ const AppointmentIndex = () => {
     return String.length >= 3;
   }
   function validEmail(String: string) {
+    // eslint-disable-next-line
     return /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(String);
   }
   function validName(String: string) {

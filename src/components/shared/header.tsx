@@ -12,7 +12,8 @@ const Header: FunctionComponent = () => {
   const isNewuser = useSelector((state: any) => state.newuser.isNewUser);
   const [log, setLog] = useState(false);
   return (
-    <div className=" flex justify-between items-center py-4 px-10 bg-orange-500">
+    // <div className=" flex justify-between items-center py-4 px-10 bg-orange-500">
+    <div className=" flex justify-between items-center py-4 px-10 bg-[#e95546]">
       <div className="">
         <Link to="/">
           <img src="\images\logo.png" width={60} alt="logo" />

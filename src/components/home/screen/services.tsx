@@ -4,7 +4,7 @@ import Servicescards from "../../shared/servicescards";
 function Services() {
   return (
     <div className=" pt-10 pb-20">
-      <div className=" text-center text-5xl text-orange-500 font-semibold pb-20">
+      <div className=" text-center text-5xl text-[#fc6d58] font-semibold pb-20">
         Our Services
       </div>
       <div className=" flex justify-evenly flex-wrap">
