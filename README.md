@@ -1,46 +1,74 @@
-# Getting Started with Create React App
+<div align="center">
+  <img src="public/images/logo.png"  alt="Divyanshu Yadav" width="20%" />
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<br>
+<p align="center">
+Fluffy Paws🐶
+</p>
+<p align="center">
+crafted with <span style="color: #8b0000;">&hearts;</span> by <a href="">DIVYANSHU YADAV, ADITYA SWARUP AND TANIYA YADAV</a>
+</p>
+<p align="center">
+    <img src="https://img.shields.io/badge/version-1.0.0-red" alt="version 1.0.0"/>
+    <img src="https://img.shields.io/badge/license-MIT-red" alt="license MIT"/>
+    <img src="https://img.shields.io/badge/author-DIVYANSHU-red" alt="author Divyanshu"/>
+</p>
 
-## Available Scripts
+## Preview 📺
 
-In the project directory, you can run:
+<div align="center">
 
-### `yarn start`
+```
+Login Screen
+```
+  <img alt="Screenshot" src="https://user-images.githubusercontent.com/91051053/226091198-6573a2e0-21e9-4a6c-bd87-a3a5430a6b58.png" />
+  
+```
+Home Screen
+```
+ <img alt="Screenshot" src="https://user-images.githubusercontent.com/91051053/226091249-5bd41970-304b-4e2c-adba-5a641ab5bfc8.png" />
+</div>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Installation 🔧
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Install dependencies
 
-### `yarn test`
+```
+$ yarn install
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Build server
 
-### `yarn build`
+```
+$ yarn build
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Start the server
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+$ yarn start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## License 📜
 
-### `yarn eject`
+`Fluffy Paws🐶` is available under the MIT license. See the LICENSE file for more info.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<!-- ## Contributing 🤝 -->
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<!-- Please read `Contributing.md` for details on our code of conduct, and the process for submitting pull requests to us. -->
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Shout outs 💥
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+| <p align="center">![Divyanshu Yadav](https://github.com/divyanshu1810.png?size=128)<br>[Divyanshu Yadav](https://github.com/divyanshu1810)</p> | 
+| ---------------------------------------------------------------------------------------------------------------------------------- |
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Forking this repo 🚨
+
+Many people have contacted us asking if they can use this code for their own websites. The answer to that question is usually "yes", with attribution. There are some cases, such as using this code for a business or something that is greater than a personal project, that we may be less comfortable saying yes to. If in doubt, please don't hesitate to ask us.
+
+We value keeping this site open source, but as you all know, _**plagiarism is bad**_. We spent a non-negligible amount of effort developing, designing, and trying to perfect this iteration of our website, and we are proud of it! All we ask is to not claim this effort as your own.
+
+So, feel free to fork this repo. If you do, please just give us proper credit by linking back to our website. Refer to this handy [quora post](https://www.quora.com/Is-it-bad-to-copy-other-peoples-code) if you're not sure what to do. Thanks!
